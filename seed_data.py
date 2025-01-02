@@ -7,7 +7,7 @@ from datetime import datetime
 app = create_app()
 
 with app.app_context():
-    # Seed Team Members with images
+    # Seed Team Members 
     team_member_1 = TeamMember(
         name="Kennedy Auka", 
         role="Managing Partner", 
