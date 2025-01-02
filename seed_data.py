@@ -50,9 +50,9 @@ with app.app_context():
     )
 
     # Seed Services
-    service_1 = Service(name="Corporate Law", description="We offer expert legal advice for corporations, including mergers, acquisitions, and compliance.")
-    service_2 = Service(name="Estate Planning", description="Our team helps you plan for the future by providing comprehensive estate planning services.")
-    service_3 = Service(name="Family Law", description="We handle all aspects of family law including divorce, custody, and prenuptial agreements.")
+    service_1 = Service(name="Corporate Law", description="Our Corporate Law services help businesses navigate the complexities of the legal landscape. From company formation and compliance to mergers and acquisitions, our experienced attorneys provide strategic guidance to ensure your business thrives.")
+    service_2 = Service(name="Estate Planning", description="Ensure your legacy is preserved with our comprehensive Estate Planning services. From drafting wills and trusts to navigating tax implications, we work closely with you to secure your family's future and provide peace of mind.")
+    service_3 = Service(name="Family Law", description="We understand that family matters require a compassionate approach. Our Family Law practice specializes in divorce, custody arrangements, spousal support, and more. We are committed to protecting your rights and providing support during challenging times.")
 
     # Seed Contact Information
     contact = Contact(
